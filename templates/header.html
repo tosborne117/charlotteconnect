@@ -1,0 +1,17 @@
+{% load static %}
+<header>
+    <div class="container">
+        
+        <a href="{% url 'home' %}" class="logo">
+            <img src="{% static '/images/new_logo_clt.png' %}" alt="Charlotte Logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+

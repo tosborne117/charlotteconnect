@@ -1,0 +1,173 @@
+* {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Left Section*/
+.left-section {
+    flex: 1; 
+    max-width: 300px;
+}
+
+/* Title */
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Course Section */
+.courses {
+    background: #687864; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.courses h4 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.course-item {
+    background: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.course-item h5 a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+.course-item:hover {
+    background: #ffd9b3;
+}
+
+/* General Posts Section */
+.general-posts-section {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+.general-posts-section h2 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Example Post */
+.post {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.post h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.post p {
+    color: #555;
+}
+
+/* Header */
+header {
+    background: #c3c3c3;
+    color: #fff;
+    padding: 15px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 150px;
+    height: auto; 
+    display: block; 
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #434343;
+}
+
+/* Buttons */
+.btn {
+    background: #687864;
+    color: white !important;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #434343;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: #c3c3c3;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
